@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         header.addEventListener('click', () => {
             const content = header.nextElementSibling;
             const icon = header.querySelector('i');
-            
+
             // Toggle active class on header
             header.classList.toggle('active');
 
@@ -63,10 +63,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // Ação de Clique WhatsApp
 function openWhatsApp() {
     // Link padronizado da API do WhatsApp. 
-    // Substituir '5511999999999' pelo número real depois.
-    const phoneNumber = "5511999999999"; 
-    const message = encodeURIComponent("Olá, Dra. Carla. Estive vendo o seu site e gostaria de saber mais sobre como agendar a minha primeira sessão.");
+    const phoneNumber = "5511994761986";
+    const message = encodeURIComponent("Olá, Carla. Estive vendo o seu site e gostaria de saber mais sobre como agendar a minha primeira sessão.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-    
+
     window.open(whatsappUrl, '_blank');
 }

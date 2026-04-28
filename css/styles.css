@@ -185,6 +185,13 @@ a {
     margin-bottom: 0.2rem;
 }
 
+.logo-img {
+    max-height: 80px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 0.2rem;
+}
+
 .logo-text-group {
     display: flex;
     flex-direction: column;
