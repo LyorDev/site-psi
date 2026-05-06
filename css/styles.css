@@ -427,6 +427,10 @@ a {
     flex: 1.2;
 }
 
+.reverse-layout {
+    flex-direction: row-reverse;
+}
+
 .about-quote {
     font-family: var(--font-heading);
     font-size: 1.35rem;
